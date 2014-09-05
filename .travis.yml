@@ -1,0 +1,22 @@
+before_install:
+- npm install -g grunt-cli
+before_deploy:
+- grunt before-deploy
+after_deploy:
+- grunt after-deploy
+language: node_js
+node_js:
+- '0.10'
+notifications:
+  email: false
+deploy:
+  provider: npm
+  email: gregor@martynus.net
+  on:
+    all_branches: true
+    tags: true
+  api_key:
+    secure: emozWVdp9pB53NAcUyhZlYAPBowOutV3pErOwOnHIYfQ53wNUJcYWfkbLFf9/Ffk8rKSLcB3az6KPBe27d/igff+JXlgaLURwFc3kyG9abc68ywmBo/Inise/LN70S66J7Fpqyv1kDbwnZXJGo2gRn/RDX7D0aiFxojTihiAceo=
+env:
+  global:
+    secure: S6wTxF8wb8xxuillnI+EnNCtMr80ch1vYEOTRfE+jPZnrgE2XD3gqv/qaIA4JgYj33L7SVxXzvqqQNh3kPwRjObTT4EAR/QrgO5E4CSLI/zQNAe7m1ZvlbxymPu2I0/Nx16Eczt2cZksh5yMLs1rGFXkWG5/AkOYmgE/a+g7UR8=

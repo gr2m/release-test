@@ -1,0 +1,23 @@
+{
+  "name": "release-test",
+  "version": "0.0.0",
+  "description": "dummy repository to test generic release task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests needed™\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gr2m/release-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gr2m/release-test/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-semantic-release": "~0.2.1"
+  },
+  "homepage": "https://github.com/gr2m/release-test"
+}

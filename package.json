@@ -1,6 +1,6 @@
 {
   "name": "release-test",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "dummy repository to test generic release task",
   "main": "index.js",
   "scripts": {
